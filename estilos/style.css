@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html {
+     width: 100vw;
+     height: 100vh;
+     font-size: 62.5;
+    }
+header {
+    height: 70vh;
+    background: linear-gradient(120deg, #00000050, #141518d5), url(../imagens/city.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 1px;
+}
+header button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+main {
+    background: linear-gradient(90deg, #5489EA,#768BB3 );
+    height: 30vh;
+}
+.primary-text {
+    text-align: center;
+    padding-top: 20px;
+    height: 20vh;
+}
+.secondt-text {
+    height: 20vh;
+    text-align: center;
+    font-size: 2rem;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
